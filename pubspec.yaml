@@ -1,0 +1,31 @@
+name: google_ml_kit_example
+description: Demonstrates how to use the google_ml_kit plugin.
+
+# The following line prevents the package from being accidentally published to
+# pub.dev using `pub publish`. This is preferred for private packages.
+publish_to: "none" # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.15.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  image_picker: ^1.0.1
+  camera: ^0.10.5+2
+  path: ^1.8.3
+  path_provider: ^2.0.15
+  google_mlkit_text_recognition: ^0.10.0
+
+dev_dependencies:
+  flutter_lints: ^2.0.2
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/ml/
+    - assets/images/
